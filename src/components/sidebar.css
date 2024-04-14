@@ -1,0 +1,36 @@
+.sidebar{
+    position: fixed;
+    background-color: #fff;
+    top: 58px;
+    bottom: 0;
+    width: 220px;
+    z-index: 996;
+    /* overflow: auto; */
+    /* scrollbar-width: thin; */
+    box-shadow: 0px 0px 36px rgba(0, 41, 112, 0.2);
+}
+.sidebar-nav{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebar-nav li a{
+    margin: 3px 0;
+    padding: 0.55rem 1.75rem;
+    font-size: 17px;
+    color: #6B6B6B;
+    font-weight: 600;
+    transition: .2s;
+}
+.sidebar-nav .logout{
+    margin-top: 60vh; 
+}
+.sidebar-nav .logout img{
+    margin-right: 6px;
+}
+
+.sidebar-nav li a:hover{
+    background-color: #3B9AA4;
+    color: #fff;
+}
+

@@ -1,0 +1,86 @@
+.hero{
+display: flex;
+align-items: center;
+/* justify-content: center; */
+}
+.hero-banner h5{
+    font-size: 18px;
+    margin-top: 1.19rem;
+}
+.upload{
+    display: flex;
+    align-items: center;
+    ::-webkit-file-upload-button {
+        display: none;
+     }
+}
+.hero-banner input{
+    border: 1px solid #e0dfdf;
+    border-radius: 6px;
+    width: 13rem;
+    padding: 7px 9px;
+    font-size: 0.85rem;
+    margin: 0 3px;
+    background-color: rgb(240, 237, 237);
+}
+.testimonialdisc input{
+   width: 35rem;
+}
+.cross{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upload .cross i{
+    position: absolute;
+    right:  3px;
+    background-color: #ffffff;
+    color: red;
+    padding: 0 3px;
+    border-radius: 3px;
+    /* width:  30px;
+    height: 30px; */
+}
+.upload i{
+    background-color: #3B9AA4;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin:  0 5px;
+    border-radius: 6px;
+    padding: 8px 18px;
+}
+
+button{
+    background-color: #3B9AA4;
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 0.75rem;
+}
+.hero .remove-btn{
+    color: #3B9AA4;
+    font-weight: 500;
+    background-color: aliceblue;
+    border: 2px solid #3B9AA4;
+    padding:0;
+    margin-top: 48px;
+    margin-left: 5px;
+    font-size: 16px;
+    padding: 13px 4px;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+.hero .remove-btn:hover{
+    background-color: #3B9AA4;
+    color: #ffffff;
+}

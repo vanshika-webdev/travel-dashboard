@@ -1,0 +1,9 @@
+#head{
+    height: 60px;
+    width: 100vw;
+    background-color: #fff;
+    /* box-shadow: 0px 2px 20px rgba(0, 41, 112, 0.2); */
+    padding: 0 1.5rem;
+    z-index: 997;
+    position: fixed;
+}

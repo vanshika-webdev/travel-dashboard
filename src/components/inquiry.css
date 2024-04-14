@@ -1,0 +1,45 @@
+.main-head .en{
+    margin: 4px 8px;
+    background-color: #F1F1F1;
+    padding: 8px 8px;
+    outline: none;
+    width: 200px!important;
+    border-radius: 9px;
+    font-size: 1.25rem;
+    color: #9E9E9E;
+    border: none;
+}
+.enq .box button{
+    margin-left: 15rem;
+    background-color: #F1F1F1;
+    border: 2px solid #000;
+    padding: 6px 10px;
+}
+.enquiry {
+    margin-left: 9.85rem;
+    padding: 2rem 4rem;
+    max-width: auto;
+    height: auto;
+    background-color: #ffffff;
+    /* color: #3B9AA4; */
+}
+.enquiry .heading {
+    color: #3B9AA4;
+    font-size: 1.035rem;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.enquiry .container {
+    margin-top: 2.5rem;
+}
+.enquiry .container .table tbody tr td select{
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    color: #029902;
+    background-color: rgb(211, 238, 211);
+    width: 120px;
+  }
+
+
+
