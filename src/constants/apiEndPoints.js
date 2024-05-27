@@ -1,0 +1,16 @@
+export const apiEndPoints = {
+  createDestination: "destination/create",
+  getDestination: "destination/get",
+  createBanner: "banner/create",
+  createTripp: "trip/create",
+  getTripp: "trip/get",
+  deleteTripp: "trip/delereTripById",
+  createPolicy: "policy/create",
+  createTestimonial: "testimonial/create",
+  createItinerary: "itinerary/create",
+  getBanner: "banner/get",
+  deleteBanner: "banner/deleteBannerById",
+  getInquiry: "inquiry/get",
+  getPolicy: "policy/get",
+  getItinerary: "itinerary/get",
+};
